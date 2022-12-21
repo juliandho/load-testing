@@ -37,4 +37,5 @@ export default () => {
 		const linkNext = await browser.findElement(By.css('#SurveyNavigationBottomControl_Next_ImageButton'))
 		linkNext.click()
 	})
+
 }
