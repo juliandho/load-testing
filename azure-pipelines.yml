@@ -9,7 +9,7 @@ steps:
     testim \
     --token "Cmc0frSjzTLuisxBZpQY82qKdLuoNvxEUDJz2hipHgiSah1yke" \
     --project "QM2QXhQHvWoJolM9twdt" \
-    --test-id "DBKi3KLO5Mkr4OYm" \
+    --testId "DBKi3KLO5Mkr4OYm" \
     --grid "Testim-Grid" \
     --report-file testim-tests-report.xml
   displayName: 'npm install testim-cli and run tests'
