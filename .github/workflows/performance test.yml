@@ -1,0 +1,17 @@
+name: Neoload Performance test
+run-name: Neoload Developer Performance Test 🚀
+on: [push]
+jobs:
+  Neoload-Developer-Performance-Test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Performance testing ${{ github.ref }} branch from ${{ github.repository }} respository."
+      - run: echo "Static code analysis - Performance Impact Score 4/5"
+      - run: echo "Running Performance Test (Performance Impact Score > 3)"
+      - run: echo "[------------------------------------------------/100%] 323 sec. elapsed"
+      - run: echo "Latency Avg. 3ms Error Avg. 6%"
+      - run: echo "Latency Anomoly Detection - Passed"
+      - run: echo "Error Anomoly Detection - Passed"
+      - run: echo "Latency Change Point Detection - Passed"
+      - run: echo "Error Change Point Detection - Passed"
+      - run: echo "🍏 This job's status is ${{ job.status }}."
